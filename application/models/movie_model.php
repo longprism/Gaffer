@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class movie_model extends CI_Model {
+class Movie_model extends CI_Model {
   public function add_movie($data)
   {
     $this->db->insert('film', $data);
